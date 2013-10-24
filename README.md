@@ -1,6 +1,7 @@
 GrooveLights
 ============
 GrooveLights is an RGB 5050 LED strip controller using arduino and node.js. This project was started to turn my back porch lighting into a music-controlled lightshow for a Halloween party.
+This project is based largely on two other projects, the Adafruit RGB LED Strip controller guide, and Noduino (see Sources).
 
 Dependencies
 ============
@@ -27,4 +28,25 @@ The following are required to use this:
 ### Other
 
 + Grooveshark Plus or Anywhere account (sorry, I don't know how to access the frequency analyzer without the Visualizer)
+
+Schematic
+========
+SEE: http://learn.adafruit.com/assets/2692
+pins 3, 5, and 6 are used to control FETs, which switch negative on/off.
+Vin pin from arduino is at 12v, used on white/black (they differ on each LED strip model) +12v pin.
+![Schematic](http://learn.adafruit.com/system/assets/assets/000/002/692/medium640/ledstripfet.gif "Schematic from adafruit guide")
+
+Sources
+=======
+
++ Adafruit RGB LED Strips guide:  http://learn.adafruit.com/rgb-led-strips/
++ Noduino Arduino interface: http://semu.github.io/noduino/
++ Duino (via Noduino): https://github.com/ecto/duino/
++ TinyColor.js: http://bgrins.github.io/TinyColor/ (for HSV -> RGB)
+
+TL;DR
+=====
+clone repo
+open grooveshark
+run bookmarklet or run JS code in console
 
