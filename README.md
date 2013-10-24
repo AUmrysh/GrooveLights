@@ -46,7 +46,15 @@ Sources
 
 TL;DR
 =====
+Install dependencies
+
 clone repo
-open grooveshark
-run bookmarklet or run JS code in console
+
+open grooveshark, pick songs, open visualizer (you want the 3rd one down with the 7 bars)
+
+nodejs lights.js in shell
+
+run bookmarklet or run JS code in web JS console
+
+
 
